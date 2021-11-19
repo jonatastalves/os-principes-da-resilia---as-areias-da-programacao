@@ -5,12 +5,12 @@
 
 nav {
 
-    background-color: rgb(26, 26, 26);
-    opacity: 0.5;
+    background-color: rgba(26, 26, 26, 0.884);
     width: 100%;
     height: 7vh;
     display: flex;
     align-items: center;
+    position: fixed;
     
 } 
 
@@ -24,6 +24,12 @@ nav {
    
 }
 
+.logo-animado:hover #texto-logo{
+  
+    font-size: medium;
+ 
+}
+
 #texto-logo{    
     font-family: monospace;
     display: flex;
@@ -35,16 +41,13 @@ nav {
     transition-duration: 2s;
 }
 
-.logo-animado:hover #texto-logo{
-  
-    font-size: medium;
- 
-}
+
 
 nav img{
 
     width: 1vw;
     height: auto;
+   
     
 }
 
@@ -53,12 +56,55 @@ body{
     background-image: url(./img/backbody.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
+.organizador{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 110vh;
+    font-family: monospace;
+    
+
+}
+
+.texto-jogo{
+
+    
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/papiro.png);
+    background-repeat: no-repeat;
+    background-size: 100% 90vh;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 0.65vmax;
+}
+
+
+
+.organizador2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 74vh;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.452);    
+
+
+}
 .personagens{
 
     width: 100%;
-    height: 74vh;
     display: flex;
     align-items: center;
     justify-content: center;
