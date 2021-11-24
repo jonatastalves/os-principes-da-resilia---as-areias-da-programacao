@@ -76,6 +76,14 @@ body{
     background-attachment: fixed;
 }
 
+.body-esliwin{
+
+    background-image: url(./img/oasisprog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .organizador{
 
     display: flex;
@@ -303,6 +311,12 @@ footer{
     color: black;
     font-family: monospace;
     font-size: 0.65vmax;
+}
+
+.texto-quebra{
+
+    width: 85%;
+
 }
 
 .footer-personagem{

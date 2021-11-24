@@ -2,25 +2,25 @@ principeEsli ();
 
 function principeEsli (){
 
-    while(true){
+    
 
-    var escolha = prompt ("1 - lorem ipsum dolor \n 2 - lorem ipsum dolor erro");
+    while(true){ 
+
+    var escolha = prompt ("1 - .serpent{ display:flex / justify-content: center} \n 2 - .serpent{ display:flex / justify-content: flex-end}");
 
     if (escolha == 2){
 
         document.getElementById("resposta-js").innerHTML = (`
         
-        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.<br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.</h1><br><br><br>
-        <a href="../esli/esli3.html"><button class="play-button">RESPONDER</button></a>`);
+        <div class="texto-quebra"><h1><br>VOCE VENCEU O DESAFIO DA SERPENTE GIGANTE DO CSS!<br><br> Agora é a hora de provar o seu valor com o desafio final do DEUS DO JAVASCRIPT!<br><br>Escolha a opção correta para desviar do seu golpe , vencer o desafio e conquistar o acesso ao OÁSIS DA PROGRAMAÇÃO<br><br> Qual das opções abaixo representa respectivamente, um loop de repetição e uma condicional!<br><br> 1 - for(j = 0; j < deusDoJs; i++); / if (forte){ return morrer } Else { return vencer }<br><br>2 - wihle (personagem > deusDoJs) / if (forte){ return morrer } Else { return vencer }</h1></div><br><br><br>
+        <a href="../esli/esli4.html"><button class="play-button">ESCOLHER</button></a>`);
         break;
     }
 
     else if (escolha == 1){
-        document.getElementById("resposta-js").innerHTML = (`
         
-        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.<br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.</h1><br><br><br>
-        <a href="../index.html"><button class="play-button">REINICIAR</button></a>`);
-        break;
+        window.location.replace('../esli/esliGameOver.html')
+        break
     }
     else{     
         alert ("NÚMERO INVÁLIDO, ESCOLHA NOVAMENTE!");   
