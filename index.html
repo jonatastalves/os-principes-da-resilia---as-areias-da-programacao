@@ -6,16 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="./raiz.js"></script>
     <title>PDRAP</title>
 </head>
 <body>
     <nav>
         <div class="logo-animado">
             <img src="./img/programacao.png">
-                <div id="texto-logo">
-                    <h1>OS PRINCIPES DA RESILIA</h1>
-                    <h2>As areias da programação</h2>
+            <div id="texto-logo">
+                    <a href="./index.html"><h1>OS PRINCIPES DA RESILIA</h1>
+                    <h2>As areias da programação</h2></a>
                 </div>
             <img id="roll" src="./img/programacao2.png">
         </div>  
@@ -24,7 +23,8 @@
     <div class="organizador">
 
         <div class="texto-jogo">
-            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.<br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi,<br> autem ea labore quos saepe totam suscipit qui numquam sint provident temporibus <br>nihil quis placeat sunt quaerat quibusdam odio est.</h1>>
+            <h1><br><span id="nome-jogador"></span>, Bem vindo(a) ao incrível Deserto da Resilia!<br><br> Um mundo onde dev's e seres mágicos vivem em paz, ou pelo menos viviam<br> até serem ameaçados por uma maldição que foi lançada no código fonte de Resilia<br> e agora só você pode restaurar esse código com a sabedoria eterna do Oásis da Programação,<br> reestruturar nosso mundo e trazer a paz novamente ao nosso Reino.<br><br> Nossos guerreiros encontraram um pergaminho com instruções e um mapa para<br> encontrar o Oasis da Programação, mas apenas um guerreiro com coração puro<br> e o conhecimento necessário poderá percorrer o caminho e enfrentrar os<br> deuses da Programação, os Guardiões do Oásis!<br><br>Nessa jornada você encontrará desafios relacionados a Programação, soft skills, e enfrentará<br> seus maiores medos!. Clique no botão abaixo, escolha seu personagem e boa sorte! </h1>
+            <button onclick="scrollWin()" class="play-button">Escolha seu personagem</button>
         </div>
               
 
@@ -37,9 +37,9 @@
         </div>
 
         <div class="personagens">
-            <img id="esli" class="select-char" src="./img/esli.png">
-            <img id="jarom" class="select-char" src="./img/jarom.png">
-            <img id="helio" class="select-char" src="./img/helio.png">
+            <a href="./esli/esli.html"><img id="esli" class="select-char" src="./img/esli.png"></a>
+            <a href="./jarom/jarom.html"><img id="jarom" class="select-char" src="./img/jarom.png"></a>
+            <a href="./helio/helio.html"><img id="helio" class="select-char" src="./img/helio.png"></a>
         </div>
 
     </div>
@@ -60,4 +60,5 @@
 
     
 </body>
+<script src="./raiz.js"></script>
 </html>
